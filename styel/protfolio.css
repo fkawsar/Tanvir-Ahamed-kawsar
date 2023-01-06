@@ -30,6 +30,7 @@ nav ul {
   align-items: center;
 }
 .btn-primary {
+  
   color: #ffffff;
   font-style: normal;
   font-weight: 700;
@@ -105,16 +106,12 @@ main {
 }
 /* what i do style */
 .what-i-do {
-    margin-top: 130px;
+  margin-top: 130px;
   margin-bottom: 300px;
-
-  
- 
 }
 .skills-container {
   display: flex;
   gap: 24px;
-
 }
 .skils {
   background: #ffffff;
@@ -127,9 +124,36 @@ main {
   font-size: 20px;
   margin-top: 30px;
   margin-bottom: 20px;
-  
 }
 .skills-description {
   color: #757575;
 }
 /* resume style */
+.resume-contener {
+  display: flex;
+  gap: 28px;
+}
+.resume .titel {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+.resume .sub-titel {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume .description {
+  color: #757575;
+}
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-button{
+  margin-top: 50px;
+  text-align: center;
+}
